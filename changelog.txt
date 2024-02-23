@@ -1,0 +1,41 @@
+*** Changelog ***
+
+= 11.1.2 - 2018.10.12 =
+
+* New		- Implemented Barzahlen payment method 
+* New		- Custom checkout overlay for Barzahlen
+* New		- Implemented Novalnet updates page
+* New		- Force 3D secure process has been implemented as per predefined filters and settings in the Novalnet admin portal
+* Enhanced	- Updated payment logo for Credit Card and Invoice payment
+* Enhanced	- Due date update notification in the shop, on activation of transaction for Invoice, Invoice with payment guarantee and Prepayment
+* Enhanced 	- On-hold transaction configuration has been implemented for Credit Card, Direct Debit SEPA, Direct Debit SEPA with payment guarantee, Invoice, Invoice with payment guarantee and PayPal
+* Enhanced 	- Optimized IP condition check for remote address
+* Enhanced 	- Guaranteed payment pending status has been implemented
+* Enhanced	- Callback has been optimized as per the new testcase
+* Enhanced	- Optimized vendor script validation
+
+= 11.1.1 - 2017.12.11 = 
+
+* Enhanced 	- Dynamic IP control applied through domain instead of static IP in vendor script. Actual IP of Novalnet will be extracted in real time from the domain
+* Enhanced 	- Merchant Administration Portal link has been updated in shop admin
+* Removed 	- Enable debug mode configuration in Merchant script management
+
+= 11.1.0 - 2017.02.17 =
+
+* Auto configuration of vendor credentials.
+* Zero amount booking for Direct Debit SEPA, Credit Card and PayPal implemented.
+* One click shopping for Direct Debit SEPA, Credit Card and PayPal implemented.
+* Credit Card iframe updated.
+* On-hold transactions for PayPal implemented.
+* Implemented Direct Debit SEPA with payment guarantee, Invoice with payment guarantee, giropay and Przelewy24 payments.
+* Edit option in Direct Debit SEPA, Credit Card and PayPal for registered customers implemented.
+* Direct Debit SEPA overlay removed.
+* Notify URL configuration in shop backend.
+* Logo control has been implemented in global configuration.
+* Responsive templates has been implemented.
+* New booking with payment reference.
+
+= 11.1.0 - 2015.05.12 =
+
+- New release
+
